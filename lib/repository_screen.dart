@@ -35,7 +35,7 @@ class RepositoryScreen extends StatelessWidget {
 }
 
 const url =
-    "https://api.github.com/user/repos?access_token=3ee45b7c219704250a23329d2ff01297a674737c&visibility=public";
+    "<YOUR TOKEN HERE>";
 
 Future<List<Repository>> fetchRepository() async {
   final response = await http.get(url);
